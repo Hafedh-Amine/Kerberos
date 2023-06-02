@@ -9,12 +9,16 @@ By integrating Kerberos SSO with OpenVPN, users can authenticate once with Kerbe
 2. Edit the /etc/krb5.conf file to include your Kerberos realm and KDC information:
 ![3](https://github.com/Hafedh-Amine/Kerberos/assets/113897973/a96f8545-a6ab-47a4-bc50-6e6c9165b34e)
 
-3. Create a Kerberos principal for the OpenVPN server;
-
+3. Create a Kerberos principal for the OpenVPN server:
+![1](https://github.com/Hafedh-Amine/Kerberos/assets/113897973/24c856c0-a275-4c58-829d-5ec28bcf751a)
+![1](https://github.com/Hafedh-Amine/Kerberos/assets/113897973/ea8133b9-fc73-4cdd-9adc-ae58e18a2c7b)
 4. Create a keytab file for the OpenVPN server;
+![1](https://github.com/Hafedh-Amine/Kerberos/assets/113897973/34590080-7001-4a09-99ec-d85998951f92)
 
 5. Edit the OpenVPN configuration file /etc/openvpn/server.conf:
 ![4](https://github.com/Hafedh-Amine/Kerberos/assets/113897973/cf617c91-dd5a-408e-a9fa-5246915af064)
+![1](https://github.com/Hafedh-Amine/Kerberos/assets/113897973/e918d460-18b6-4093-b69b-cf3bf5a0db7a)
+![1](https://github.com/Hafedh-Amine/Kerberos/assets/113897973/426a4dda-7757-4663-980b-be0edaa8a64c)
 
 
 6. Generate certificates and keys for the OpenVPN server and clients;
